@@ -1,0 +1,49 @@
+.DS_Store
+*.xspf
+!sample.xspf
+
+# -------------------------------
+# Bower & npm
+# -------------------------------
+
+bower_components
+node_modules
+npm-debug.log*
+
+
+# -------------------------------
+# Build & Test
+# -------------------------------
+
+.tmp/
+build/
+dist/
+*.css.map
+.yo-rc.json
+.sass-cache/
+
+
+# -------------------------------
+# Runtime Data & Generated Files
+# -------------------------------
+
+coverage/
+journal/
+lib-cov/
+logs/
+pids/
+report/
+results/
+*.out
+*.pid
+*.seed
+
+
+# -------------------------------
+# Temporary files
+# -------------------------------
+
+temp
+tmp
+*.tmp
+*.tmp.*
