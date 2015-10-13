@@ -13,6 +13,7 @@
     "compression": "^1.6.0",
     "express": "^4.13.3",
     "hippie": "^0.4.0",
+    "moment": "^2.10.6",
     "morgan": "^1.6.1",
     "supertest": "^1.1.0",
     "xml2js": "^0.4.12"
