@@ -23,7 +23,7 @@ var logger        = require('morgan');
 //  Configuration
 // ------------------------------
 
-var errorHandler  = require('./routes/utils/errorHandler')();
+var errorHandler  = require('./api/common/errorHandler')();
 var port          = process.env.PORT || 7200;
 var environment   = process.env.NODE_ENV;
 var routes;
@@ -46,7 +46,7 @@ app.use(errorHandler.init);
 //  Load Routes
 // ------------------------------
 
-routes = require('./routes/index')(app);
+routes = require('./api/core/core.routes')(app);
 
 
 //  Log to Console

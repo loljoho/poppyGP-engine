@@ -9,7 +9,7 @@
 
 module.exports = function(app) {
 
-  var playlistService = require('./utils/playlistService')();
+  var playlistService = require('../common/playlistService')();
 
 
   app.get('/api/playlist', getPlaylist);

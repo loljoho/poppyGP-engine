@@ -18,9 +18,15 @@ Application Structures
 │   │   ├── core.services.js
 │   │   └── core.utils.js
 │   └── api.js
-├── config/                             --> Configuration Files
+├── config/
 │   ├── express.js
 │   └── config.js
+├── data/
+│   ├── playlist.xspf
+│   └── sample.xspf
+├── docs/
+│   ├── 
+│   └── 
 ├── tests/
 ├── gulpfile.js
 └── index.js
