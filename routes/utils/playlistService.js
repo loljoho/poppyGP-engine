@@ -1,11 +1,10 @@
 /**
  * ------------------------------
- *  JSON File Service
+ *  Playlist Service
  * ------------------------------
- * @filename  jsonFileService.js
+ * @filename  playlistService.js
  * @location  /routes/utils/
- * @author    John Papa
- * @modified  Jonathan Ho <joho@joho.io>
+ * @author    Jonathan Ho <joho@joho.io>
  */
 
 'use strict';
@@ -48,18 +47,9 @@ module.exports = function() {
       var filepath = path.join('data/', filename);
 
       var valueProcessor = function(value) {
-        if(isNaN(value)) {
-          if(value.substring(0, 4) === 'file') {
-            // location field
-            return decodeURIComponent(value).slice(11).split('\/')
-              .slice(2).toString()
-              .slice(0,-4);
-          } else {
-            // title field
-          }
-        }
-        else {
-          // duration field
+        if(isNaN(value) && value.substring(0, 4) === 'file') {
+          return decodeURIComponent(value).slice(11).split('\/').slice(2).toString().slice(0,-4);
+        } else {
           return value;
         }
       };
