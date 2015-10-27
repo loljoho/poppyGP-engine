@@ -1,0 +1,132 @@
+# -------------------------------
+# Slim Framework Gitignore by Joho
+# -------------------------------
+# Version   v0.1.0
+# Created   27-Oct-2014
+# Updated   
+# Docs      http://git-scm.com/docs/gitignore
+
+
+# -------------------------------
+# PHP & Composer
+# -------------------------------
+
+vendor/
+clover.xml
+composer.lock
+phpunit.xml
+
+
+# -------------------------------
+# Generic Gitignore by Joho
+# -------------------------------
+# Version   v0.6.0
+# Created   17-Oct-2014
+# Updated   03-Sep-2015
+# Docs      http://git-scm.com/docs/gitignore
+
+
+# -------------------------------
+# Packages
+# -------------------------------
+
+*.7z
+*.ar
+*.apk
+*.app
+*.deb
+*.dmg
+*.iso
+*.msi
+*.pkg
+*.rar
+*.rpm
+*.tar
+*.tar.*
+*.xap
+*.zip
+
+
+# -------------------------------
+# Logs & Database
+# -------------------------------
+
+*.lock
+*.0
+*.1
+*.ns
+*.csv
+*.dat
+*.log
+*.ldf
+*.mdf
+*.sdf
+*.sqlite
+
+
+# -------------------------------
+# Windows
+# -------------------------------
+
+$RECYCLE.BIN/
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+*.cab
+*.dll
+*.exe
+*.msi
+*.msm
+*.msp
+*.lnk
+
+
+# -------------------------------
+# OS X / Linux
+# -------------------------------
+
+*~
+._*
+.*-V100
+.Apple*
+.DS_Store
+.LSOverride
+.TemporaryItems
+.Trash-*
+.Trashes
+.VolumeIcon.icns
+.apdisk
+.directory
+.fseventsd
+Network Trash Folder
+Temporary Items
+
+
+# -------------------------------
+# Text Editors / IDEs
+# -------------------------------
+
+sftp-config.json
+*~
+*.swo
+*.swp
+*.stTheme.cache
+*.sublime-project
+*.sublime-workspace
+*.tmlanguage.cache
+*.tmPreferences.cache
+
+
+# -------------------------------
+# Miscellaneous
+# -------------------------------
+
+!.gitkeep
+.joho
+
+
+# -------------------------------
+#
+# end of file .gitignore
+#
+# -------------------------------
