@@ -12,6 +12,8 @@
 # -------------------------------
 
 vendor/
+cache/*
+log/*
 clover.xml
 composer.lock
 phpunit.xml
