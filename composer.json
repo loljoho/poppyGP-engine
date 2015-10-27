@@ -1,14 +1,13 @@
 {
-    "name": "akrabat/slim3-skeleton",
-    "description": "Simple Slim Framework 3 skeleton with Twig & Monolog.",
-    "license": "BSD-3-Clause",
+    "name": "poppyGP-engine",
+    "description": "Vroom vroom.",
     "type": "project",
-    "keywords": ["slim-framework", "skeleton"],
+    "keywords": ["poppyGP"],
     "authors": [
         {
-            "name": "Rob Allen",
-            "email": "rob@akrabat.com",
-            "homepage": "http://akrabat.com"
+            "name": "Joho (Jonathan Ho)",
+            "email": "joho@joho.io",
+            "homepage": "http://joho.io"
         }
     ],
     "autoload": {
