@@ -37,6 +37,30 @@ The list below outlines the technologies to be utilised:
 
 
 
+Links & Resources
+-----------------
+
+__Style & Convention__
+
+ * [PSR-1 Basic Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)
+ * [PSR-2 Coding Style Guide](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
+ * [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) and [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) Class Autoloading Specifications
+
+__Documentation & Reference__
+
+ * [Slim Framework on GitHub](https://github.com/slimphp/Slim)
+ * [Slim Framework Documentation](http://www.slimframework.com/docs/)
+
+__Packages & Modules__
+
+ * [Slim HTTP Cache](https://github.com/slimphp/Slim-HttpCache)
+ * [Slim Cookies](https://github.com/slimphp/Slim-Http-Cookies)
+ * 
+ * 
+
+
+
+
 Technologies
 ------------
 
@@ -106,6 +130,7 @@ Interacts with the [Reddit API](https://www.reddit.com/dev/api) via OAuth2 using
 
 Reference & Miscellany
 ----------------------
+
 
 __Slim Applications__
 
