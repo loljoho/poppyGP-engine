@@ -10,4 +10,4 @@
 #
 # ----------------------
 
-php -S 0.0.0.0:8888 -t public public/index.php
+php -S 127.0.0.1:3000 -t api api/index.php
