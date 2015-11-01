@@ -1,7 +1,7 @@
 {
     "name": "poppyGP-engine",
     "description": "RESTful API built with Slim Framework 3",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "type": "project",
     "keywords": ["poppyGP"],
     "homepage": "https://github.com/poppyGP/poppyGP-engine",
@@ -29,7 +29,7 @@
         }
     },
     "require": {
-        "slim/slim": "^3.0@beta",
+        "slim/slim": "^3.0@RC",
         "slim/twig-view": "^1.1",
         "slim/flash": "^0.1.0",
         "monolog/monolog": "^1.13"
