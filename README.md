@@ -16,10 +16,11 @@ __Work in progress.__
 
 Overview
 --------
+<a id="overview"></a>
 
-__poppyGP-engine__ provides a data access layer for the __poppyGP-player__ front-end web application.
+__poppyGP-engine__ provides a data access layer for the __poppyGP-player__ front-end web application.  Its role resembles that of a REST API.
 
-Its role resembles that of a REST API, and will serve as the back-end for a number of features, as outlined in the eponymous section (appropriately titled "Features").
+The project will serve to provide a number of features as outlined in the section appropriately titled [Features](#features).
 
 Development of the project with the LAMP stack:
 
@@ -28,62 +29,34 @@ Development of the project with the LAMP stack:
  * MySQL 5.7
  * Apache 2.4
 
-The list below outlines the technologies to be utilised:
-
- * [Slim Framework 3](http://www.slimframework.com/) - lightweight PHP micro framework
- * [Composer](https://getcomposer.org/) - dependency managemer
- * [Doctrine Project](http://www.doctrine-project.org/) - multifunctional PHP library and ORM
-
-
-
-
-Links & Resources
------------------
-
-__Style & Convention__
-
- * [PSR-1 Basic Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)
- * [PSR-2 Coding Style Guide](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
- * [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) and [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) Class Autoloading Specifications
-
-__Documentation & Reference__
-
- * [Slim Framework on GitHub](https://github.com/slimphp/Slim)
- * [Slim Framework Documentation](http://www.slimframework.com/docs/)
-
-__Packages & Modules__
-
- * [Slim HTTP Cache](https://github.com/slimphp/Slim-HttpCache)
- * [Slim Cookies](https://github.com/slimphp/Slim-Http-Cookies)
- * 
- * 
+More information can be found in the [Technologies](#tech) section.
 
 
 
 
 Technologies
 ------------
+<a id="tech"></a>
 
-### Slim Framework ###
-
-While Slim Framework 3 is still in the pre-release stages, this project will follow along the framework's development to promote current coding standards and conventions.  In addition, the development of this project may prove useful to contributing towards the Slim Framework development process as well.
-
- * [Slim Framework 3 Documentation](http://www.slimframework.com/docs/)
- * [Slim Framework 3 RC1 Announcement](http://www.slimframework.com/2015/09/08/slim3-rc1.html)
- * [slimphp/Slim 3.0.0-RC1 Source](https://github.com/slimphp/Slim/tree/3.0.0-RC1)
+Numerous technologies are utilised in this project, amongst which are PHP frameworks and libraries, development tools, and a variety of mish-mash (for lack of a better term).
 
 
+__[Slim Framework 3](http://www.slimframework.com/)__ lightweight PHP micro-framework
 
-### Composer ###
+The third version is currently in `RC1` stage.  Hopefully, __poppyGP-engine__ development will provide useful in contributions towards the development of Slim Framework.
 
- * [Composer Documentation](https://getcomposer.org/doc/)
- * [Packagist](https://packagist.org/)
 
+__[Composer](https://getcomposer.org/)__ - PHP dependency managemer
+
+
+I intend on expanding upon this section as more technologies are implemented.
 
 
 
-Features (Incomplete!)
-----------------------
+
+Features
+--------
+<a id="features"></a>
 
 ### poppyGP Schedule ###
 
@@ -128,22 +101,29 @@ Interacts with the [Reddit API](https://www.reddit.com/dev/api) via OAuth2 using
 
 
 
+Credits & Thanks
+----------------
+<a id="credits"></a>
+
+
+ * [shameerc/slim-skeleton](https://github.com/shameerc/slim-skeleton)
+ * [RichardStyles/RestAPI](https://github.com/RichardStyles/RestAPI)
+ * [akrabat/slim3-skeleton](https://github.com/akrabat/slim3-skeleton)
+
+
+
+
 Reference & Miscellany
 ----------------------
+<a id="ref"></a>
 
 
 __Slim Applications__
 
- * https://github.com/juliangut/slim-doctrine
- * https://github.com/akrabat/slim3-skeleton
- * https://github.com/seb-bizeul/slim3-starter-kit
- * https://github.com/rotexsoft/slim3-skeleton-mvc-app
- * https://github.com/shameerc/slim-skeleton
- * https://github.com/search?l=PHP&o=desc&q=slim+3&s=updated&type=Repositories&utf8=%E2%9C%93
+ 
 
 __Slim API-Specific__
  
- * https://github.com/progknife/slim3-rest
- * https://github.com/RichardStyles/RestAPI
- * https://github.com/MichielvdVelde/php-blog-api
- * https://github.com/akrabat/slim3-api-output-format
+ * 
+
+ * 
