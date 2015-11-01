@@ -9,14 +9,17 @@ Style & Standards
 -----------------
 
  * [PHP Standards Recommendations - PHP-FIG](http://www.php-fig.org/psr/)
-     * Style Guide
-         * [PSR-1: Basic Coding Standard](http://www.php-fig.org/psr/psr-1/)
-         * [PSR-2: Coding Style Guide](http://www.php-fig.org/psr/psr-2/)
-     * Autoloader
-         * [PSR-0: Autoloading Standard](http://www.php-fig.org/psr/psr-0/)
-         * [PSR-4: Autoloader](http://www.php-fig.org/psr/psr-4/)
-         * [PSR-4 Meta Document](http://www.php-fig.org/psr/psr-4/meta/)
-         * [Example Implementations of PSR-4](http://www.php-fig.org/psr/psr-4/examples/)
+ * Coding Standard & Style
+     * [PSR-1: Basic Coding Standard](http://www.php-fig.org/psr/psr-1/)
+     * [PSR-2: Coding Style Guide](http://www.php-fig.org/psr/psr-2/)
+ * Autoloading
+     * [PSR-0: Autoloading Standard](http://www.php-fig.org/psr/psr-0/)
+     * [PSR-4: Autoloader](http://www.php-fig.org/psr/psr-4/)
+     * [PSR-4 Meta Document](http://www.php-fig.org/psr/psr-4/meta/)
+     * [Example Implementations of PSR-4](http://www.php-fig.org/psr/psr-4/examples/)
+     * [PSR-4 in `composer.json` Schema](https://getcomposer.org/doc/04-schema.md#psr-4)
+ * HTTP Request/Response
+     * [PSR-7: HTTP message interfaces](http://www.php-fig.org/psr/psr-7/)
 
 
 
@@ -34,6 +37,7 @@ __Composer__
 
  * [Composer Documentation](https://getcomposer.org/doc/)
  * [Packagist](https://packagist.org/)
+ * [The `composer.json` Schema](https://getcomposer.org/doc/04-schema.md)
 
 
 
@@ -41,8 +45,23 @@ __Composer__
 Modules & Libraries
 -------------------
 
- * [Slim HTTP Cache](https://github.com/slimphp/Slim-HttpCache)
- * [Slim Cookies](https://github.com/slimphp/Slim-Http-Cookies)
+__Slim Middleware & Providers__
+
+ * [HTTP cache middleware and service provider](https://github.com/slimphp/Slim-HttpCache)
+ * [CSRF protection middleware](https://github.com/slimphp/Slim-Csrf)
+ * [Renderer for PSR-7 Response objects](https://github.com/slimphp/PHP-View)
+
+__OAuth & Authentication__
+
+ * [PHP OAuth provider with numerous service implementations](https://github.com/logical-and/php-oauth)
+
+
+
+
+Blog Posts & Articles
+---------------------
+
+ * [Stauffer M. A Brief Introduction to PHP Namespacing. 07 February 2015.](https://mattstauffer.co/blog/a-brief-introduction-to-php-namespacing)
 
 
 
