@@ -1,15 +1,28 @@
 {
     "name": "poppyGP-engine",
-    "description": "Vroom vroom.",
+    "description": "RESTful API built with Slim Framework 3",
+    "version": "0.0.1",
     "type": "project",
     "keywords": ["poppyGP"],
-    "authors": [
-        {
-            "name": "Joho (Jonathan Ho)",
-            "email": "joho@joho.io",
-            "homepage": "http://joho.io"
-        }
-    ],
+    "homepage": "https://github.com/poppyGP/poppyGP-engine",
+    "authors": [{
+        "name": "Joho (Jonathan Ho)",
+        "email": "joho@joho.io",
+        "homepage": "http://joho.io"
+    }, {
+        "name": "Richard Styles",
+        "email": "RichardStyles@users.noreply.github.com",
+        "homepage": "https://github.com/RichardStyles"
+    }, {
+        "name": "Rob Allen",
+        "email": "rob@akrabat.com",
+        "homepage": "http://akrabat.com"
+    }],
+    "support": {
+        "email": "joho@joho.io",
+        "issues": "https://github.com/poppyGP/poppyGP-engine/issues",
+        "source": "https://github.com/poppyGP/poppyGP-engine/"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "app/src"
