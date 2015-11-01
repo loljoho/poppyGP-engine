@@ -18,8 +18,37 @@ final class HomeAction
     public function dispatch($request, $response, $args)
     {
         $this->logger->info("Home page action dispatched");
-        
+
         $this->view->render($response, 'home.twig');
         return $response;
+    }
+
+    public function login($request, $response, $args){
+      $this->logger->info("Login Request");
+      $rsp = array(
+        'success'=>true,
+        'message'=>"Log in request"
+      );
+      $response = $response->withJson($rsp);
+      return $response;
+    }
+    public function logout($request, $response, $args){
+      $this->logger->info("Logout Request");
+      $rsp = array(
+        'success'=>true,
+        'message'=>"Logout request"
+      );
+      $response = $response->withJson($rsp);
+      return $response;
+    }
+
+    public function setDefault($request, $response, $args){
+      $this->logger->info("Default Request");
+      $rsp = array(
+        'success'=>true,
+        'message'=>"Default request"
+      );
+      $response = $response->withJson($rsp);
+      return $response;
     }
 }
