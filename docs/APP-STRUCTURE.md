@@ -17,5 +17,7 @@ Application Structure
 ---------------------
 
 ```
-
+App\
+    Action
+    Middleware\
 ```
